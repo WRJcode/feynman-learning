@@ -4,4 +4,4 @@
 
 | 主题链接 | 知识点 | 上次学习日期 | 计划复测日期 | 状态 | 结果或会话链接 |
 | --- | --- | --- | --- | --- | --- |
-| [Nacos](../topics/nacos/index.md) | 核心抽象与市场关联的迁移、边界 | 2026-11-10 | 待安排 | 待复测 | [本轮记录](../topics/nacos/sessions/2026-11-10-01.md) |
+| [Nacos](../topics/nacos/index.md) | 核心抽象、AI 专区与资源关系的迁移和边界 | 2026-11-10 | 待安排 | 待复测 | [第一轮](../topics/nacos/sessions/2026-11-10-01.md) · [第二轮](../topics/nacos/sessions/2026-11-10-02.md) |
