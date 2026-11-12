@@ -43,4 +43,20 @@
 
 ## 来源边界
 
-权限审批的具体触发、授权主体和多智能体编排范围未在此次定点阅读或实验中核实。老师与学生是用户类比；图中具体组件映射由 AI 辅助，不是产品官方比喻。
+第一轮没有核实权限审批与多 Agent 范围；第二轮已补充 S6、S7。具体部署的审批主体、确认处理器接入、真实多模型协作效果仍未验证。老师与学生是用户类比；图由 AI 辅助绘制，不是官方比喻。
+
+## S6：权限确认与多智能体编排的补充核实
+
+- 阅读日期：2026-11-12；固定 SDK 提交与 S2 相同。
+- 官方资料：https://docs.openhands.dev/sdk/guides/security 、https://docs.openhands.dev/sdk/guides/task-tool-set 、https://docs.openhands.dev/sdk/guides/agent-dynamic-workflow 。
+- 定点源码与版本边界见[报告](evidence/permissions-and-orchestration.md)。
+- 核实内容：确认策略、拒绝反馈、Task 委派与恢复、并行及 workflow 组合、共享工作目录。
+- 重要条件：TaskManager 无 confirmation_handler 时可继续待确认动作；不能仅凭继承策略认定部署中有人审批。
+- 多智能体部分为文档与源码核对，未运行真实多模型协作。
+
+## S7：动作确认的最小试跑
+
+- [脚本](evidence/check-security.py)、[结果](evidence/security-results.json)。
+- 模型调用被脚本替代；真实 SDK 与自定义工具执行。
+- 批准前没有文件，批准后生成；拒绝前后均无文件，拒绝理由进入后续模型输入。也检查了 ConfirmRisky 对高、低及未知风险的默认判断。
+- 不验证真实模型决策、页面交互、服务端授权或操作系统权限提升。脚本含本次环境绝对路径，复跑需准备对应 SDK 和新的实验目录。

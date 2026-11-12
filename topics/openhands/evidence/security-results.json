@@ -1,0 +1,41 @@
+{
+  "cases": [
+    {
+      "decision": "approve",
+      "status_before_decision": "waiting_for_confirmation",
+      "file_before_decision": false,
+      "file_after_decision": true,
+      "final_status": "finished",
+      "events": [
+        "SystemPromptEvent",
+        "MessageEvent",
+        "ActionEvent",
+        "ObservationEvent",
+        "ActionEvent",
+        "ObservationEvent"
+      ],
+      "real_model_invoked": false
+    },
+    {
+      "decision": "reject",
+      "status_before_decision": "waiting_for_confirmation",
+      "file_before_decision": false,
+      "file_after_decision": false,
+      "final_status": "finished",
+      "events": [
+        "SystemPromptEvent",
+        "MessageEvent",
+        "ActionEvent",
+        "UserRejectObservation",
+        "ActionEvent",
+        "ObservationEvent"
+      ],
+      "real_model_invoked": false
+    }
+  ],
+  "default_risk_policy": {
+    "high": true,
+    "low": false,
+    "unknown": true
+  }
+}
