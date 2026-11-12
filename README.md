@@ -39,6 +39,7 @@
 
 ## 文件
 
+- [学习索引](LEARNING-INDEX.md)：已归档主题、来源、学习状态和待核实问题。
 - `AGENTS.md`：仓库协作和记录规则。
 - `.agents/skills/`：三个独立 Skill。
 - `templates/`：可选笔记模板，按需裁剪。
