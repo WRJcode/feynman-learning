@@ -1,0 +1,42 @@
+[
+  {
+    "case": "write_note",
+    "status": "finished",
+    "model_calls_scripted": 2,
+    "event_types": [
+      "SystemPromptEvent",
+      "MessageEvent",
+      "ActionEvent",
+      "ObservationEvent",
+      "ActionEvent",
+      "ObservationEvent"
+    ],
+    "error_messages": [],
+    "file": "/workspace/openhands-study/write_note/note.txt",
+    "file_contents": "Hello from the real OpenHands tool executor.",
+    "observation_in_next_model_request": true,
+    "real_model_invoked": false
+  },
+  {
+    "case": "unknown_tool_then_recover",
+    "status": "finished",
+    "model_calls_scripted": 3,
+    "event_types": [
+      "SystemPromptEvent",
+      "MessageEvent",
+      "ActionEvent",
+      "AgentErrorEvent",
+      "ActionEvent",
+      "ObservationEvent",
+      "ActionEvent",
+      "ObservationEvent"
+    ],
+    "error_messages": [
+      "Tool 'nonexistent_demo_tool' not found. Available: ['write_note', 'finish']"
+    ],
+    "file": "/workspace/openhands-study/unknown_tool_then_recover/note.txt",
+    "file_contents": "Hello from the real OpenHands tool executor.",
+    "observation_in_next_model_request": true,
+    "real_model_invoked": false
+  }
+]
