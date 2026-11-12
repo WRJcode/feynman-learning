@@ -7,12 +7,13 @@
 | [Nacos](topics/nacos/index.md) | [来源清单](topics/nacos/sources.md)：官方概览、AI 管理中心概述 | 核心管理对象、市场抽象及 AI 专区关联已有初步解释证据；配置映射及资源协作关系仍待验证 | 配置映射的独立解释；调用、配置生效与隔离边界；ARD 范围与 Agent 使用方式；新场景迁移 |
 | [OpenHands](topics/openhands/index.md) | [来源与实验](topics/openhands/sources.md)：官方仓库、SDK 文档与定点源码、脚本化模型的本地实验、Codex 对照资料 | 执行反馈循环、工具与子 Agent、权限及 AI coding 场景已有不同程度的解释证据；尚无延迟复测通过记录 | 部署级审批接入、文件隔离边界、真实多 Agent 协作；将抽象用于新任务的能力 |
 | [Codex](topics/codex/index.md) | [来源与实践](topics/codex/sources.md)：官方循环、项目指令和 Skill 文档，学习索引实践 | 能初步解释“将循环机制工程化”；职责及系统范围已接触校准 | 校准后的独立重讲；项目指令、Skill 与权限的区分；实际应用 |
-
 | [Browser Use](topics/browser-use/index.md) | [来源与试跑](topics/browser-use/sources.md)：官方文档、定点源码及真实 Chromium 实验 | 循环与老师—学生关联能初步解释 | 精确组件分工、版本差异、实验与自主模型能力的证据边界；独立应用 |
+
+| [Playwright](topics/playwright/index.md) | [官方来源](topics/playwright/sources.md)：README、自动等待与断言文档 | 自动化测试定位能初步解释；封装抽象与类比为 AI 示范 | 独立抽象与重讲；元素接口、截图方式及验证边界 |
 
 ## 查阅路径
 
-- 看当前理解与图：[Nacos 总结](topics/nacos/synthesis.md)、[OpenHands 总结](topics/openhands/synthesis.md)、[Codex 总结](topics/codex/synthesis.md)、[Browser Use 总结](topics/browser-use/synthesis.md)。
+- 看当前理解与图：[Nacos 总结](topics/nacos/synthesis.md)、[OpenHands 总结](topics/openhands/synthesis.md)、[Codex 总结](topics/codex/synthesis.md)、[Browser Use 总结](topics/browser-use/synthesis.md)、[Playwright 总结](topics/playwright/synthesis.md)。
 - 查解释原话与修正过程：进入各主题目录页中的会话链接。
 - 查平台差异：[OpenHands 与 Codex 对照](topics/openhands/comparison-codex.md)。该文是学习输入，不是用户掌握证据。
 - 安排复测：[复测队列](reviews/queue.md)。各主题均待安排，本仓库没有后台提醒。
