@@ -60,3 +60,12 @@
 - 模型调用被脚本替代；真实 SDK 与自定义工具执行。
 - 批准前没有文件，批准后生成；拒绝前后均无文件，拒绝理由进入后续模型输入。也检查了 ConfirmRisky 对高、低及未知风险的默认判断。
 - 不验证真实模型决策、页面交互、服务端授权或操作系统权限提升。脚本含本次环境绝对路径，复跑需准备对应 SDK 和新的实验目录。
+
+## S8：AI coding 机制的新增资料
+
+- 检索日期：2026-11-12；本轮基于已读官方文档整理，没有新代码试跑。
+- https://openai.com/index/unrolling-the-codex-agent-loop/ ：2026-01-23 工程文章，说明模型、工具、上下文与 agent loop 的关系；具体实现以版本为准。
+- https://docs.openhands.dev/sdk/arch/overview ：SDK 的 Agent、Conversation、Tool、Workspace 等角色，与 S2 源码证据相互参照。
+- https://openai.com/index/introducing-upgrades-to-codex/ ：2025-09-15 历史发布资料，介绍 GPT-5-Codex 针对工程任务的训练；不能据此断言所有当前模型使用同一训练流程。
+- https://openai.com/index/introducing-codex/ ：2025-05-16 历史发布资料，页面已注明过时；仅支持历史训练与开发环境介绍，不将旧价格、联网或产品默认值作为当前事实。
+- 观点归属：可执行工程环境和检查反馈有助于迭代，是本轮综合解释；不承诺任务可被完全自动验证，也未比较两者性能。

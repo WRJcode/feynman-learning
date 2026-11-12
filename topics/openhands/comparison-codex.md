@@ -69,3 +69,7 @@ https://developers.openai.com/blog/codex-as-a-platform
 https://learn.chatgpt.com/docs/auth?surface=cli
 
 外部文档可能随版本改变；本笔记记录本会话已读取的内容，未保存网页全文快照。
+
+## 共同机制的后续学习
+
+[第三轮会话](sessions/2026-11-12-03.md)记录了用户如何把二者归入“通用智能体循环在编程场景中的适配”：模型能力、项目上下文、开发工具和工程反馈共同支持迭代。当前[场景图](synthesis.md#第三轮新增ai-coding-的场景抽象)保留这一抽象，并区分 AI 补充与用户表达。本轮没有新增两产品的性能对照结果。
